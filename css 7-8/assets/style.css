@@ -1,0 +1,87 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+.box{
+	padding: 7.35vh 0;
+}
+form{
+	width:30vw;
+	background:white;
+	height:80vh;
+	border-radius:7px;
+	box-shadow: 1px 1px 6px black;
+	margin :0 auto;
+}
+.cover{
+	padding: 10vh 0;
+	margin:10%;
+}
+.cover>h1{
+	margin:0px;
+	font-family:arial;
+	text-align:center;
+}
+.cover .field span{
+	font-weight: bold;
+	font-size:18px;
+	margin: 6px 0;
+	font-family:calibri;
+}
+.cover .field input{
+	margin: 8px 0;
+	height:40px !important;
+	border-radius:40px;
+	padding:10px;
+	border:none;
+	width:100%;
+	box-shadow: 0px -1px 2px inset black;
+}
+#psdrst{
+		text-align:right;
+	margin:0px;
+	right:0px;
+	margin-right:6px;
+}
+
+
+#psdrst, .options div{
+	color: gray;
+
+		font-family:calibri;
+}
+.fbtn{
+	width:100%;
+	height:40px;
+		border-radius:40px;
+	border:none;
+	margin-top:10px;
+	color:white;
+	cursor:pointer;
+	background:linear-gradient(90deg,dodgerblue,#e72de7);
+}
+
+
+.fbtn:hover{
+	background:linear-gradient(0deg,blue,purple);
+	font-size:16px;
+	font-weight:bolder;
+}
+.options button{
+	color:white;
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	padding:10px;
+	border:none;
+	font-weight:bold;
+	margin:5px;
+}
+.options div{
+	margin:20px 0px 10px 0; /*Shorthand*/}
+.options button:first-of-type{
+	background-color:dodgerblue;}
+.options button:last-of-type{
+	background-color:coral;}
+.options button:nth-of-type(2){
+	background-color:springgreen;}
